@@ -12,6 +12,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
 
     <style>
+        /* --- TEMA VISUAL SUCURSAL 2 (Menta y Negro) --- */
+        .navbar-custom { background-color: #111111 !important; border-bottom: 3px solid #20c997 !important; }
+        #login-overlay { background: linear-gradient(135deg, #000000, #17a589) !important; }
+        .login-card { border: 2px solid #20c997 !important; box-shadow: 0 0 15px rgba(32, 201, 151, 0.3) !important; }
+        .btn-primary { background-color: #20c997 !important; border-color: #1aa179 !important; color: #000 !important; font-weight: 900 !important; }
+        .btn-primary:hover, .btn-primary:active { background-color: #17a589 !important; color: #000 !important; transform: scale(0.98); }
+        .bg-primary { background-color: #20c997 !important; color: #000 !important; }
+        .text-primary { color: #20c997 !important; }
+        .tab-btn.active { color: #20c997 !important; font-weight: 900 !important; }
+        .screen-input { color: #20c997 !important; }
         /* --- ESTILOS VISUALES (Originales) --- */
         * { -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
         input, textarea { user-select: text !important; -webkit-user-select: text !important; }
@@ -106,7 +116,7 @@
 
     <div id="login-overlay">
         <div class="text-white mb-4 text-center">
-            <h1><i class="fa-solid fa-store"></i> Raspadito</h1>
+            <h1><i class="fa-solid fa-store"></i> Raspados NJS</h1>
             <p>Acceso Seguro</p>
         </div>
         <div class="login-card shadow">
@@ -114,7 +124,7 @@
                 <label class="form-label small text-muted fw-bold">Correo</label>
                 <div class="input-group">
                     <span class="input-group-text bg-light"><i class="fa-solid fa-envelope text-secondary"></i></span>
-                    <input type="email" id="login-email" class="form-control" placeholder="usuario@raspadito.com">
+                    <input type="email" id="login-email" class="form-control" placeholder="usuario@raspados.com">
                 </div>
             </div>
             
@@ -157,7 +167,7 @@
 
     <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="menuLateral">
         <div class="offcanvas-header border-bottom border-secondary">
-            <h5 class="offcanvas-title">Raspadito System</h5>
+            <h5 class="offcanvas-title">Raspados NJS</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="list-group list-group-flush">
@@ -512,4 +522,5 @@
     </script>
 </body>
 </html>
+
 
